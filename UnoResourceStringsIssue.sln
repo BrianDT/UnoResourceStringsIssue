@@ -5,13 +5,19 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{E82CD350-10E6-44CA-862D-DB4B0B003529}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoResourceStringsIssue", "UnoResourceStringsIssue\UnoResourceStringsIssue\UnoResourceStringsIssue.csproj", "{44625987-835B-4840-B0A8-34DE7C698040}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoResourceStringsIssue", "UnoResourceStringsIssue\UnoResourceStringsIssue\UnoResourceStringsIssue.csproj", "{44625987-835B-4840-B0A8-34DE7C698040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoResourceStringsIssue.Wasm", "UnoResourceStringsIssue\UnoResourceStringsIssue.Wasm\UnoResourceStringsIssue.Wasm.csproj", "{5D0EB3A6-E371-48DF-BD57-2C9082642037}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoResourceStringsIssue.Wasm", "UnoResourceStringsIssue\UnoResourceStringsIssue.Wasm\UnoResourceStringsIssue.Wasm.csproj", "{5D0EB3A6-E371-48DF-BD57-2C9082642037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoResourceStringsIssue.Mobile", "UnoResourceStringsIssue\UnoResourceStringsIssue.Mobile\UnoResourceStringsIssue.Mobile.csproj", "{8A0C5AF1-3194-4FF5-8ECE-D4680CCD3502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoResourceStringsIssue.Mobile", "UnoResourceStringsIssue\UnoResourceStringsIssue.Mobile\UnoResourceStringsIssue.Mobile.csproj", "{8A0C5AF1-3194-4FF5-8ECE-D4680CCD3502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoResourceStringsIssue.Windows", "UnoResourceStringsIssue\UnoResourceStringsIssue.Windows\UnoResourceStringsIssue.Windows.csproj", "{1EDD0839-75CB-4CB0-8525-0FBB59318DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoResourceStringsIssue.Windows", "UnoResourceStringsIssue\UnoResourceStringsIssue.Windows\UnoResourceStringsIssue.Windows.csproj", "{1EDD0839-75CB-4CB0-8525-0FBB59318DFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25B74739-760A-4010-91CE-110DE5D51C75}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
