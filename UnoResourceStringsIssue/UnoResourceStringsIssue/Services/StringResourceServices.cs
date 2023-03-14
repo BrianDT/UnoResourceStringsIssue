@@ -37,11 +37,7 @@ namespace UnoResourceStringsIssue.Services
                 }
                 else
                 {
-#if HAS_UNO
-                    this.resourceLoader = ResourceLoader.GetForCurrentView(assemblyName + "/Resources");
-#else
                     this.resourceLoader = ResourceLoader.GetForViewIndependentUse(assemblyName + "/Resources");
-#endif
                 }
             }
             catch (Exception ex)
