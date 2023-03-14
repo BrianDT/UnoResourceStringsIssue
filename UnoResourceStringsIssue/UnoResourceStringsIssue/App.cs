@@ -23,6 +23,8 @@ namespace UnoResourceStringsIssue
         /// </remarks>
         public App()
         {
+            ////Windows.ApplicationModel.Resources.Core.ResourceContext.SetGlobalQualifierValue("Language", "fr-Fr");
+            Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = "fr-Fr";
         }
 
         /// <summary>
@@ -38,15 +40,15 @@ namespace UnoResourceStringsIssue
         protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
 #if DEBUG
-		if (System.Diagnostics.Debugger.IsAttached)
-		{
-			// this.DebugSettings.EnableFrameRateCounter = true;
-		}
+		    if (System.Diagnostics.Debugger.IsAttached)
+		    {
+			    // this.DebugSettings.EnableFrameRateCounter = true;
+		    }
 #endif
 
 #if NET6_0_OR_GREATER && WINDOWS && !HAS_UNO
-		MainWindow = new Window();
-		MainWindow.Activate();
+		    MainWindow = new Window();
+		    MainWindow.Activate();
 #else
             MainWindow = Microsoft.UI.Xaml.Window.Current;
 #endif

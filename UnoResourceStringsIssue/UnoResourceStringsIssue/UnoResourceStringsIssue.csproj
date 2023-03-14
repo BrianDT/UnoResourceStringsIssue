@@ -43,4 +43,7 @@
 	<ItemGroup>
 		<PRIResource Include="**\*.resw" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Strings\fr\" />
+	</ItemGroup>
 </Project>

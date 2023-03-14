@@ -118,18 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AltText" xml:space="preserve">
-    <value>This is the alternative text</value>
+    <value>Ceci est le texte alternatif</value>
+    <comment>This is the alternative text</comment>
   </data>
   <data name="ApplicationName" xml:space="preserve">
     <value>UnoResourceStringsIssue</value>
+    <comment>UnoResourceStringsIssue</comment>
   </data>
   <data name="ChangeButton.Content" xml:space="preserve">
-    <value>Change the text</value>
+    <value>Changer le texte</value>
+    <comment>Change the text</comment>
   </data>
   <data name="Greetings.Text" xml:space="preserve">
-    <value>Hello World from resources via x:Uid</value>
+    <value>Hello World à partir des ressources via x:Uid</value>
+    <comment>Hello World from resources via x:Uid</comment>
   </data>
   <data name="ParaText" xml:space="preserve">
-    <value>This text is obtained from the resource file programmatically</value>
+    <value>Ce texte est obtenu à partir du fichier de ressources par programmation</value>
+    <comment>This text is obtained from the resource file programmatically</comment>
   </data>
 </root>

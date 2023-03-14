@@ -9,9 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel>
-        <TextBlock x:Uid="Greetings" Margin="20" FontSize="30" />
-        <TextBlock Text="{x:Bind VM.ParaText, Mode=OneWay}"  Margin="20" />
-        <Button Tapped="Button_Tapped"
-                Margin="20">Change the text</Button>
+        <TextBlock x:Uid="Greetings" Margin="20" FontSize="30" TextWrapping="WrapWholeWords"/>
+        <TextBlock Text="{x:Bind VM.ParaText, Mode=OneWay}"  Margin="20" TextWrapping="WrapWholeWords"/>
+        <Button x:Uid="ChangeButton" Tapped="Button_Tapped" Margin="20"/>
     </StackPanel>
 </Page>
