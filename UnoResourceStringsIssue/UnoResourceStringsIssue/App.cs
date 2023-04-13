@@ -23,8 +23,8 @@ namespace UnoResourceStringsIssue
         /// </remarks>
         public App()
         {
-            ////Windows.ApplicationModel.Resources.Core.ResourceContext.SetGlobalQualifierValue("Language", "fr-Fr");
-            Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = "fr-Fr";
+            ////Windows.ApplicationModel.Resources.Core.ResourceContext.SetGlobalQualifierValue("Language", "fr-Fr"); - Not used
+            Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = "en-GB"; // "fr-Fr"
         }
 
         /// <summary>
